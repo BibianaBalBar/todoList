@@ -1,10 +1,18 @@
-.box1 {
-	margin-top: 50px;
-	border: 2px solid black;
-	padding: 50px;
+body {
+	background: #222222;
 }
 
 h1 {
 	text-align: center;
 	padding-bottom: 50px;
+}
+
+.box1 {
+	margin-top: 50px;
+	padding: 50px;
+	background: white;
+	border-radius: 5px;
+	-webkit-box-shadow: 10px 10px 10px 2px rgba(191, 191, 191, 0.75);
+	-moz-box-shadow: 10px 10px 10px 2px rgba(191, 191, 191, 0.75);
+	box-shadow: 10px 10px 7px 2px rgba(191, 191, 191, 0.75);
 }
